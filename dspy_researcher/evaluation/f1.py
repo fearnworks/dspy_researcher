@@ -8,8 +8,8 @@ def calculate_f1_score(true_answer, predicted_answer, *args, **kwargs):
     """
     logger.info(f"args: {args}, kwargs: {kwargs}")
     logger.info(f"true_answer: {true_answer}, predicted_answer: {predicted_answer}")
-    true_tokens = normalize(true_answer.answer).split()
-    pred_tokens = normalize(predicted_answer.answer).split()
+    true_tokens = normalize(true_answer).split()
+    pred_tokens = normalize(predicted_answer).split()
     
     common_tokens = Counter(true_tokens) & Counter(pred_tokens)
     num_same = sum(common_tokens.values())

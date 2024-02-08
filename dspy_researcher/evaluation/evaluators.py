@@ -5,7 +5,7 @@ import os
 from loguru import logger 
 num_threads = os.environ.get("DSP_NUM_THREADS", 1)
 
-def dspy_f1_metric(gold: Example, pred ) -> float:
+def dspy_f1_metric(gold: Example, pred, trace=None ) -> float:
     logger.info(f"gold: {gold.answer}, pred: {pred.answer}")
     return calculate_f1_score(gold.answer, pred.answer)
 
