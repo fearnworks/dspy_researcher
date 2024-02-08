@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "dspy_researcher"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

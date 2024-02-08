@@ -1,0 +1,16 @@
+python-dotenv
+openai>=1.2.0
+termcolor
+loguru
+python-dotenv
+pydantic
+streamlit
+sqlalchemy
+ipykernel
+black==23.11.0
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+torch==2.1.1
+ipython==8.17.2
+huggingface-hub
+dspy-ai

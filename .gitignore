@@ -1,0 +1,10 @@
+.env
+venv
+__pycache__
+*.pyc
+threads.db
+*.log
+*.egg-info
+output
+*.pt
+local_cache
